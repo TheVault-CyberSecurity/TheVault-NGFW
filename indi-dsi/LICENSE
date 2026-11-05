@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: indi-dsi
+Source: https://github.com/indilib/indi-3rdparty
+
+Files: *
+Copyright: 2009, Roland Roberts <roland@astrofoto.org>
+           2015, Ben Gilsrud <bgilsrud@gmail.com>
+License: LGPL-2.1+
+
+Files: Util.h
+Copyright: 2009, Interactive Data Corporation
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2021-2024 Thorsten Alteholz <debian@alteholz.de>
+           2018 Jasem Mutlaq <mutlaqja@ikarustech.com>
+License: LGPL-2.1+
+
+License: LGPL-2.1+
+ On Debian based system the LGPL-2.1 can be found in /usr/share/common-licenses/LGPL-2.1

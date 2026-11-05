@@ -1,0 +1,9 @@
+GeoLite2 data is not on TheVault's ISO. A box downloads it from MaxMind with
+its owner's own free account and licence key (Settings, Threat Intelligence).
+
+Licence: Creative Commons Attribution-ShareAlike 4.0 International
+(https://creativecommons.org/licenses/by-sa/4.0/) and MaxMind's GeoLite2 End
+User License Agreement (https://www.maxmind.com/en/geolite2/eula).
+
+This product includes GeoLite2 data created by MaxMind, available from
+https://www.maxmind.com.

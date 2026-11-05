@@ -1,0 +1,621 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: dahdi-linux
+Source: http://git.asterisk.org/gitweb/?p=dahdi/linux.git;a=summary
+Comment:
+ This is a binary package that only installs firmware files and a few
+ scripts to install them. Thus licenses of the source files mostly
+ apply only to redistribution of the sources and not to the binary package.
+ .
+ Several Xorcom firmware files are included. They are freely distributable
+ but may not be modified. The Octasic firmware has even more limitations
+ beyond that and may only be used with the device and such.
+
+Files: *
+Copyright: 2001-2015, Digium, Inc
+License: GPL-2-Digium
+
+Files: debian/*
+Copyright: 2015 Oron Peled <oron.peled@xorcom.com>
+License: GPL-2+
+
+Files: drivers/dahdi/xpp/*
+Copyright: 2004-2015, Xorcom
+License: GPL-2+
+
+Files: drivers/dahdi/xpp/firmwares/*.hex
+Copyright: 2004-2015, Xorcom
+License: Xorcom-Firmwares
+ Redistribution and use of the microcode software ( Firmware ) is
+ permitted provided that the following conditions are met:
+ .
+         1. Firmware is redistributed verbatim without any modification;
+         2. Any reproduction of Firmware must contain the above
+            copyright notice, this list of conditions and the below
+            disclaimer in the documentation and/or other materials
+            provided with the distribution; and
+         3. The name of Xorcom may not be used to endorse or promote
+            products derived from this Firmware without specific prior
+            written consent.
+ .
+ Disclaimer: Xorcom provides this firmware "as is" with no warranties
+ or indemnities whatsoever. Xorcom expressly disclaims any express,
+ statutory or implied warranties, including, but not limited to, the
+ implied warranties of merchantability, fitness for a particular
+ purpose and non-infringement. In no event shall Xorcom be liable for
+ any direct, indirect, incidental, special, exemplary, or consequential
+ damages (including, but not limited to, procurement of substitute
+ goods or services; loss of use, data, or profits; or business
+ interruption) however caused and on any theory of liability, whether
+ in contract, strict liability, or tort (including negligence or
+ otherwise) arising in any way out of the use of this firmware, even
+ if advised of the possibility of such damage. User acknowledges and
+ agrees that the purchase or use of the firmware will not create or
+ give grounds for a license by implication, estoppel, or otherwise in
+ any intellectual property rights (patent, copyright, trade secret,
+ mask work, or other proprietary right) embodied in any other Xorcom
+ hardware or firmware either solely or in combination with the firmware.
+
+Files: debian/OCT6104E-256D.ima
+Copyright: 2012, Octasic Inc.
+License: Octasic
+Comment:
+ This is NOT a general license. This is a copy of a license granted by
+ Octasic Inc. to Xorcom Inc.
+ .
+ Generally however it allows everyone free redistribution of unmodified
+ licensce files with the usual limitations (e.g.: no reverse engineering).
+
+Files: drivers/dahdi/xpp/XppConfig.pm
+License: GPL-1+ or Artistic
+ This program is free software; you can redistribute and/or
+ modify it under the same terms as Perl itself.
+ .
+ On Debian systems you may find the Artistic License on
+ /usr/share/common-licenses/Artistic and the General Public License v.1 on
+ /usr/share/common-licenses/GPL-1 .
+Copyright: 2008, Xorcom
+Comment: Written by Oron Peled <oron@actcom.co.il>
+
+Files: drivers/dahdi/dahdi-sysfs-chan.c
+ drivers/dahdi/dahdi-sysfs.c
+ drivers/dahdi/dahdi.h
+Copyright: 2011, Digium, Inc
+  2011, Xorcom
+  2011-2012, Digium, Inc
+  2011-2012, Xorcom
+License: GPL-2-Digium
+
+Files: drivers/dahdi/oct612x/*
+Copyright: 2001-2007 Octasic Inc.
+License: GPL-2+-OCTAPI
+
+Files: drivers/dahdi/datamods/hdlc_cisco.c
+ drivers/dahdi/datamods/hdlc_fr.c
+ drivers/dahdi/datamods/hdlc_generic.c
+ drivers/dahdi/datamods/hdlc_ppp.c
+ drivers/dahdi/datamods/hdlc_raw.c
+ drivers/dahdi/datamods/hdlc_raw_eth.c
+Copyright: 1999 - 2005, Krzysztof Halasa <khc@pm.waw.pl>
+License: GPL-2-Digium
+
+Files: drivers/dahdi/dahdi-base.c
+ drivers/dahdi/dahdi-version.c
+ drivers/dahdi/makefw.c
+ drivers/dahdi/tor2-hw.h
+ drivers/dahdi/tor2.c
+ drivers/dahdi/wct4xxp/base.c
+Copyright: 2001, - 2012, Digium, Inc
+  2001, Jim Dixon
+  2001-2008, Digium, Inc
+  2001-2012, Digium, Inc
+  2011, Digium, Inc
+  Zapata Telephony
+License: GPL-2-Digium
+
+Files: drivers/dahdi/voicebus/GpakApi.c
+ drivers/dahdi/voicebus/GpakApi.h
+ drivers/dahdi/voicebus/GpakHpi.h
+ drivers/dahdi/voicebus/gpakErrs.h
+ drivers/dahdi/voicebus/gpakenum.h
+Copyright: 2001 - 2005, Adaptive Digital Technologies, Inc
+License: GPL-2-Digium
+
+Files: drivers/dahdi/voicebus/GpakCust.c
+Copyright: 2005, Adaptive Digital Technologies, Inc
+  2005-2010, Digium Incorporated
+License: GPL-2-Digium
+
+Files: drivers/dahdi/biquad.h
+ drivers/dahdi/dahdi_echocan_sec.c
+ drivers/dahdi/dahdi_echocan_sec2.c
+ drivers/dahdi/ecdis.h
+ drivers/dahdi/fir.h
+Copyright: 2001, Steve Underwood
+  2002, Steve Underwood
+License: GPL-2-Digium
+
+Files: drivers/dahdi/datamods/syncppp.c
+Copyright: 1994 Cronyx Ltd.
+Comment: Author: Serge Vakulenko, <vak@zebub.msk.su>
+License: GPL-2+
+
+Files: drivers/dahdi/dahdi_dynamic_loc.c
+Copyright: 2004, Axialys Interactive
+License: GPL-2-Digium
+
+Files: drivers/dahdi/dahdi_dummy.c
+Copyright: 2002, Hermes Softlab
+  2004-2012, Digium, Inc
+License: GPL-2-Digium
+Comment: Not used anymore.
+
+Files: drivers/dahdi/wctdm24xxp/base.c
+Copyright: 2005, - 2012, Digium, Inc
+  2006, Jim Dixon and QRV Communications
+License: GPL-2-Digium
+
+Files: drivers/dahdi/pciradio.c
+Copyright: 2001-2007, Jim Dixon
+  Zapata Telephony
+License: GPL-2-Digium
+
+License: GPL-2-Digium
+ * This program is free software, distributed under the terms of
+ * the GNU General Public License Version 2 as published by the
+ * Free Software Foundation. See the LICENSE file included with
+ * this program for more details.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+-OCTAPI
+ This file is part of the Octasic OCT6100 GPL API . The OCT6100 GPL API  is 
+ free software; you can redistribute it and/or modify it under the terms of 
+ the GNU General Public License as published by the Free Software Foundation; 
+ either version 2 of the License, or (at your option) any later version.
+ .
+ The OCT6100 GPL API is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+ for more details. 
+ .
+ You should have received a copy of the GNU General Public License 
+ along with the OCT6100 GPL API; if not, write to the Free Software 
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: Octasic
+                      KEYED OBJECT CODE LICENSE AGREEMENT
+ .
+ THIS OBJECT CODE LICENSE AGREEMENT is made as of the 4th day of June, 2012
+ (the “Effective Date”) by and between Octasic Inc., a corporation
+ incorporated under the federal laws of Canada having its principal place of
+ business at 4101 Molson Street, Suite 300, Montreal, Quebec, Canada H1Y 3L1
+ and fax no. (514) 282-7672 (“Octasic”) and XORCOM Ltd., a corporation
+ incorporated under the laws of Israel having its principal place of
+ business at Rabin House,  Misgav Industrial Park,   20174 Israel  (the
+ “Licensee”).
+ .
+ BACKGROUND
+ 1. Octasic designs and sells various models of  semiconductor  products  for
+    use in various applications.
+ 2. Octasic provides a binary object code image and a  license  key  file  to
+    purchasers of its semiconductors which is  loaded  to  a  device  by  the
+    purchaser to enable its operation.  A different version  of  the  license
+    key file is provided for use with each different model of a semiconductor
+    product.
+ 3.  The  Licensee  has  agreed  to  purchase  certain  models   of   Octasic
+    semiconductors identified by a valid quotation from Octasic.
+ 4. Octasic has agreed to provide to the Licensee, pursuant to the  terms  of
+    this Agreement, a License Unit License to use a single instance of binary
+    object code image and license key file in conjunction with  the  purchase
+    of a corresponding model of Octasic semiconductor device.
+ 5. Octasic has agreed to provide to the Licensee, pursuant to the  terms  of
+    this Agreement, a Development License to use any number of instances of a
+    binary object code image and  license  key  file  within  the  Licensee’s
+    premises to  develop  product  that  incorporates  one  or  more  Octasic
+    semiconductor devices.
+ 6.  If  the  Octasic  code  provided  under  this  agreement   provides   an
+    implementation  of  the  Global  IP  Solutions  iLBC  codec,  this   code
+    implementation was developed using Source Code from Global  IP  Solutions
+    and is distributed under the terms of  the  “Global   IP  Solutions  iLBC
+    Public License, v3.0”.  In compliance with said license, the Source  Code
+    version of the Original  Code  is  available  under  the  terms  of  this
+    license.
+ .
+ NOW THEREFORE the Parties hereby agree as follows:
+ .
+                                   ARTICLE I
+                                INTERPRETATION
+    1.1     Definitions.  In this Agreement,  unless  the  context  requires
+    otherwise, the following terms shall have the following meanings:
+       “Agreement” means this Object Code License Agreement as the  same  may
+       be amended from time to time in accordance with the provisions hereof;
+       “hereof”, “hereto” and “hereunder” refer to this Agreement as a  whole
+       and not to any particular article or section.  “Article” or  “Section”
+       refer to the specified article or section of this Agreement;
+       “Confidential Information” means all information  relating  to  either
+       Party or to such Party’s business, products, sales,  customers,  trade
+       secrets, technology or financial position to which access is  obtained
+       or granted by virtue of entering into, or carrying out the  terms  of,
+       this Agreement which when disclosed to the other Party  is  marked  or
+       otherwise designated as confidential or which, by the  nature  of  the
+       information or the circumstances of its disclosure,  would  reasonably
+       be regarded as confidential.  In all cases,  Confidential  Information
+       automatically includes the Object  Code  in  any  form.   Confidential
+       Information shall not include any data or  information  which  is,  or
+       becomes, publicly available other than by breach of this Agreement  or
+       which a Party can establish was  either  lawfully  in  its  possession
+       prior to receipt from the disclosing Party  or  was  obtained  from  a
+       third party having no obligation of confidence with respect thereto;
+       “Device” means an Octasic semiconductor product;
+       “Model” means an orderable item from Octasic identified in a valid
+       quotation which when purchased by the Licensee results in the delivery
+       of a specific Octasic Device and the transfer to the Licensee of a
+       single and specific License Unit License identified by the Quotation.
+       “Effective Date” has the meaning given thereto on the first page of
+       this Agreement;
+       “Parties” means Octasic and the Licensee and Party means either one of
+       them;
+       “Person” includes an individual,  company,  corporation,  partnership,
+       government or  governmental  agency,  authority  or  entity  howsoever
+       designated or constituted;
+       “Object Code” means a binary object code  image  with  its  associated
+       license key file which is loaded to a Device to enable its  operation.
+       This binary object code image and license key file  are  delivered  by
+       Octasic via various media to purchasers of its semiconductor products.
+       Different versions of this Object  Code  with  different  license  key
+       files may be provided for use with different models and  includes  any
+       modifications, improvements, corrections or new versions of the Object
+       Code that may be provided by Octasic to  the  Licensee  from  time  to
+       time.
+ 1.2   Headings.  The headings in  this  Agreement  are  for  convenience  of
+ reference only and shall  not  affect  the  construction  or  interpretation
+ hereof.
+ 1.3   Entire Agreement.  This Agreement  constitutes  the  entire  Agreement
+ between the Parties pertaining to the subject matter hereof  and  supersedes
+ all prior agreements, understandings, negotiations and discussions, oral  or
+ written, between the Parties.  The execution of this Agreement has not  been
+ induced by, nor do either of the Parties rely upon or  regard  as  material,
+ any   representations,   warranties,   conditions,   other   agreements   or
+ acknowledgements not expressly made in this Agreement.
+ 1.4   Severability.  If any of the provisions contained  in  this  Agreement
+ are found by a court of competent jurisdiction to  be  invalid,  illegal  or
+ unenforceable in any respect, the validity, legality  or  enforceability  of
+ the remaining provisions contained herein shall not be in any  way  affected
+ or impaired thereby.
+ 1.5   Governing Law.  This Agreement shall be governed by and  construed  in
+ accordance with the laws of the Province of Quebec and the federal  laws  of
+ Canada applicable therein (excluding  any  conflicts  of  laws  rules  which
+ would refer its construction to the laws of another jurisdiction) and  shall
+ be treated, in all respects, as  a  Quebec  contract.   The  Parties  hereby
+ irrevocably submit to the non-exclusive jurisdiction of the  courts  of  the
+ Province of Quebec.  The Parties expressly exclude the  application  of  the
+ United Nations Convention on Contracts for the International Sale of Goods.
+ .
+                                  ARTICLE II
+                                 LICENSE TERMS
+ 2.1   License Unit License.  Subject to the terms  and  conditions  of  this
+ Agreement, for each Model unit purchased  by  Licensee,  Octasic  grants  to
+ Licensee a limited, nonexclusive, non-transferable,  worldwide  Object  Code
+ license to use, copy, and distribute the Object Code  solely  when  embedded
+ in Licensee's product. Each License Unit License  permits  the  loading  and
+ execution of the Object Code on a single Device. Licensee may sublicense  to
+ Licensee's customers the right to use the Object Code solely  when  embedded
+ in Licensee's Product. Licensee agrees any such  sublicense  to  the  Object
+ Code shall be pursuant to a written license agreement between  Licensee  and
+ sublicensee which restricts sublicensee's use to Object Code embedded  in  a
+ product and prohibits sublicensee from copying the Object Code,  or  reverse
+ engineering, decompiling, or disassembling the  Object  Code.  Licensee  may
+ not sublicense the Object Code other than as explicitly set  forth  in  this
+ Section. Licensee does not obtain any rights pursuant to  the  License  Unit
+ License other than as explicitly granted in this agreement.
+ 2.2   Development License.  Upon execution of this Agreement and subject  to
+ the terms and conditions of this Agreement, Octasic  grants  to  Licensee  a
+ limited, nonexclusive, non-transferable, Object Code license to (i) use  the
+ Object Code for Licensee's internal use on  projects  related  to  producing
+ products to be sold by Licensee, on Licensee’s premises only  and  (ii)  use
+ Object Code to demonstrate Licensee's product to  Licensee's  customers  and
+ potential customers. This Development License only entitles Licensee to  use
+ the Object Code for internal use and demonstration as set forth herein,  and
+ does not give the Licensee the right to use  the  Object  Code,  modify  the
+ Object Code, or distribute, sublicense  or  otherwise  transfer  the  Object
+ Code directly or indirectly through third parties. Licensee does not  obtain
+ any rights pursuant to the Development License other than  those  explicitly
+ granted in this Agreement.
+    2.3     Restrictions on Use.  The Licensee acknowledges that the  Object
+    Code  represents  an  important  asset  of  Octasic’s   and   that   any
+    unauthorized use by the Licensee, or by any other  Person,  could  cause
+    significant damage to Octasic’s  business.   Accordingly,  the  Licensee
+    agrees that it shall not, for any purpose:
+ a) attempt to modify the Object Code;
+ b) attempt to reverse engineer, decompile, disassemble,  reverse  assemble,
+    reverse compile or in any other manner attempt to derive source code  or
+    other Confidential Information from the Object Code;
+ c) license or distribute the Object Code in conjunction with  any  computer
+    software, firmware or hardware that enables or permits any  use  of  the
+    Object Code, or any portion of it, other than the limited uses expressly
+    permitted herein; or
+    The Licensee shall take all  reasonable  precautions  to  prevent  third
+    parties, including its third party  manufacturers  and  customers,  from
+    using the Object Code in any way that would constitute a breach of  this
+    Agreement including, without limitation, taking such precautions as  the
+    Licensee would otherwise take to  protect  its  own  proprietary  Object
+    Code.
+ 2.4    Distribution License.  As an alternative to section 2.1  to  2.3  but
+ subject to the other terms and conditions of this  Agreement,  the  Licensee
+ may also distribute and sublicense the Object Code as  part  of  a  Licensee
+ software product.  Although  distributed  separately,  the  Object  code  is
+ intended to be used solely with the Device.
+ .
+                                  ARTICLE III
+                                     TITLE
+    3.1     Octasic Ownership.  The Licensee acknowledges  and  agrees  that
+    the Object Code is the exclusive property of Octasic and that no term of
+    this Agreement shall be construed as conveying title in the Object Code,
+    or any portion thereof, to the Licensee.  The Licensee  shall  not  take
+    any action which purports to create a claim, lien or encumbrance on  the
+    Object Code and any such act, if taken, shall be void.
+    3.2     Copyright Notices.  The Licensee shall ensure that all copies of
+    the Object Code distributed  to  its  manufacturers  and  its  customers
+    include the copyright notices and proprietary legends of Octasic as they
+    appear in the Object Code.
+ .
+                                  ARTICLE IV
+                                CONFIDENTIALITY
+    4.1     Confidentiality.  Subject to  Section  4.2  hereof,  each  Party
+    agrees that it shall keep the  Confidential  Information  of  the  other
+    Party in the strictest confidence and that it shall take all  reasonable
+    precautions to  protect  the  Confidential  Information  from  any  use,
+    disclosure or copying except as expressly authorized by this  Agreement.
+    Each Party shall restrict access  to  the  Confidential  Information  to
+    those of its employees  requiring  access  to  it  for  the  purpose  of
+    carrying out the terms of, or exercising the rights authorized by,  this
+    Agreement.  Each Party shall implement  such  procedures  as  the  other
+    Party may reasonably request from time to time to improve  the  security
+    of the Confidential Information in its possession.
+    4.2     Mandatory Disclosure.  A Party may  disclose  such  Confidential
+    Information of the other Party as is required in order to comply with  a
+    court order or  other  legal  requirement  provided  that,  if  a  Party
+    receives notice indicating that it may be legally compelled to  disclose
+    such Confidential Information, it will  provide  the  other  Party  with
+    prompt notice of such requirement so that the other Party  may,  at  its
+    sole option, discretion and expense, seek a protective  order  or  other
+    appropriate remedy.  In  any  event,  a  Party  disclosing  Confidential
+    Information pursuant to  this  Section  4.2  shall  only  disclose  that
+    portion of the Confidential Information as is required  to  comply  with
+    the legal requirement.
+ .
+                                   ARTICLE V
+                                     AUDIT
+    5.1     Record  Keeping.   The  Licensee  shall  keep  full,  clear  and
+    accurate  records  regarding  the  manufacture  and  sale  of   products
+    containing the Object Code or any portion thereof.  These  records,  for
+    any particular Object Code, shall be retained  for  at  least  five  (5)
+    years from the date that the Licensee pays the purchase  price  for  any
+    Model provided by Octasic with which the Licensee is authorized  to  use
+    the Object Code pursuant to the terms hereof.
+    5.2     Audit.  Octasic may, at its request, have an independent  public
+    accountant  examine  the  Licensee’s  records  with   respect   to   the
+    manufacture and sale of  products  containing  the  Object  Code.   Such
+    examination shall take place  upon  reasonable  notice  and  during  the
+    normal business hours of the Licensee.  The Licensee hereby agrees  that
+    it shall grant access to the relevant records  and  cooperate  with  the
+    independent accountant engaged by Octasic during conduct of  the  audit.
+    The costs of the audit shall  be  borne  by  Octasic  unless  the  audit
+    reveals breach of this Agreement in which event all  costs  relating  to
+    the audit shall be borne by the Licensee.
+ .
+                                  ARTICLE VI
+                          WARRANTIES AND INDEMNITIES
+    6.1     Free of Encumbrances.   Octasic  represents  and  warrants  that
+    there are not, nor will there  be,  any  liens,  encumbrances,  security
+    interests or other rights against the Object Code which would  interfere
+    with the Licensee’s  ability  to  exercise  the  rights  granted  to  it
+    hereunder.  Title to the media  upon  which  the  Object  Code  will  be
+    provided shall be free and clear of all encumbrances by Octasic  to  the
+    Licensee.
+    6.2     Limited Warranty.  Octasic warrants that, for a period of ninety
+    (90) days (the “Warranty Period”) from  the  date  of  delivery  of  any
+    Object Code by Octasic to the Licensee, the Object Code will conform, in
+    all material respects, to any specifications  relating  to  such  Object
+    Code provided by Octasic to the  Licensee.   Octasic’s  sole  obligation
+    pursuant to this warranty shall be to repair or replace any Object  Code
+    component failing to perform in accordance with such  specifications  of
+    which Octasic has received notice prior to expiration  of  the  Warranty
+    Period.  Notwithstanding the foregoing, Octasic shall not be  under  any
+    obligation to repair or replace any Object Code which fails  to  perform
+    in accordance with the specifications as a result of combination of  the
+    Object Code with any software not provided by  Octasic  or  improper  or
+    unauthorized operation, interconnection or installation.
+    The warranty provided pursuant to this Section 6.2  is  contingent  upon
+    the Licensee’s installation of any and  all  corrections,  enhancements,
+    updates and new versions of the Object Code which may be provided to the
+    Licensee by Octasic from time to time.
+    6.3     Limitation on Warranties.  Other than  the  warranties  provided
+    pursuant to Section 6.1 and 6.2 hereof, Octasic makes no  warranties  or
+    representations and expressly disclaims, to the extent permitted by law,
+    all warranties, representations, conditions and guarantees of any  kind,
+    expressed or implied, in relation to the Object Code including, but  not
+    limited  to,  all  warranties,   representations   and   conditions   of
+    merchantability,  fitness  for  a  particular   purpose,   title,   non-
+    infringement and warranties arising by statute or otherwise  in  law  or
+    from a course of dealing or usage  of  trade.   In  particular,  without
+    limiting the foregoing, Octasic does not warrant that the  operation  of
+    the Object Code will be uninterrupted or error free or that  the  Object
+    Code will meet the Licensee’s individual requirements.
+    6.4      Limitation  of  Liability.   The  Licensee  acknowledges   that
+    Octasic’s price for the Devices and for use of the Object Code does  not
+    provide adequate consideration for the assumption, by  Octasic,  of  any
+    liability for any claims arising from, or relating to, this Agreement or
+    from  the  Licensee’s  use  of,  or  reliance  upon,  the  Object  Code.
+    Accordingly, the Licensee agrees that its remedies  for  any  individual
+    claim arising from or relating to this Agreement or use of, or  reliance
+    upon, the Object Code shall be limited to the price paid by the Licensee
+    for use of the specific Object Code related to the claim or, in the case
+    of a claim not directly relating to the use of specific Object Code,  to
+    the price paid by Licensee for use of the Object Code.  Furthermore, the
+    Licensor’s total aggregate liability for all  claims  arising  from,  or
+    relating to, this Agreement or the Licensor’s use of, or reliance  upon,
+    any and all Object Code, whether such claims are based on contract, tort
+    or otherwise, shall not exceed the price paid by the Licensee for use of
+    the Object Code.   The  Parties  acknowledge  that  this  limitation  of
+    liability provision reflects an informed, voluntary  allocation  of  the
+    risks (known  and  unknown)  that  may  exist  in  connection  with  the
+    provision of the Object Code hereunder.  IN NO EVENT SHALL  OCTASIC,  OR
+    ITS OFFICERS, DIRECTORS, EMPLOYEES OR AGENTS BE LIABLE FOR ANY PUNITIVE,
+    EXEMPLARY, AGGRAVATED, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, NOR
+    SHALL OCTASIC BE LIABLE FOR ANY DAMAGES RELATING OR TO OR ARISING  AS  A
+    CONSEQUENCE OF, LOSS OF PROFITS, FAILURE TO REALIZE SAVINGS, LOSS OF USE
+    OR LACK OF AVAILABILITY OF  THE  LICENSEE’S  FACILITIES,  INCLUDING  ITS
+    COMPUTER RESOURCES,  LOSS  OF  DATA,  BUSINESS  INTERRUPTIONS  OR  OTHER
+    INTANGIBLES ARISING OUT OF OR IN ANY WAY RELATED TO THE  USE,  INABILITY
+    TO USE, UNAUTHORIZED USE, PERFORMANCE OR NON-PERFORMANCE OF  THE  OBJECT
+    CODE OR THAT RESULT OR  MAY  RESULT  FROM  ERRORS,  DEFECTS,  OMISSIONS,
+    DELAYS IN OPERATION OR TRANSMISSION OR ANY OTHER FAILURE OF  PERFORMANCE
+    OF THE OBJECT CODE, EVEN IF OCTASIC HAS BEEN ADVISED PREVIOUSLY  OF  THE
+    POSSIBILITY OF SUCH DAMAGES AND WHETHER OR NOT SUCH DAMAGES  ARISE  FROM
+    CONTRACT, TORT, EQUITY, PURSUANT TO ANY LEGISLATION OR OTHERWISE.
+    6.5     Claims Regarding Intellectual  Property  Infringement.   OCTASIC
+    shall defend, at its own expense and at PURCHASER’s request, any  action
+    brought against PURCHASER insofar as it is based on  a  claim  that  the
+    Object Code supplied hereunder infringes a  Canadian  or  United  States
+    patent.   OCTASIC  shall  pay  all  costs  of  defense  and  settlement,
+    together with any judgment which may be finally  awarded  provided:  (i)
+    OCTASIC is  promptly  notified  in  writing  of  any  such  claim;  (ii)
+    PURCHASER affords OCTASIC full control and authority  to  defend  and/or
+    settle such  claim;  (iii)  PURCHASER  provides  OCTASIC  all  necessary
+    information and assistance to enable OCTASIC to defend such  claim;  and
+    (iv) such claim is not the result of  a)  a  combination,  operation  or
+    utilization of Object Code with devices, designs, parts or software  not
+    provided by OCTASIC; b) any modification made  by  PURCHASER  of  Object
+    Code or c) any essential  intellectual  property  required  by  industry
+    standard(s)  with  the  exception  of  G.729AB.  OCTASIC  shall  not  be
+    responsible for any settlement or arrangement made by PURCHASER  without
+    OCTASIC’s written  consent.   If  such  a  claim  has  occurred,  or  in
+    OCTASIC’s opinion it is likely to  occur,  PURCHASER  agrees  to  permit
+    OCTASIC, at its option and expense, either to procure for PURCHASER  the
+    right to continue using the Object Code or to replace or modify the same
+    so that they become non-infringing, or,  if  neither  of  the  foregoing
+    alternatives is reasonably available, to refund the PURCHASER the  price
+    thereof as depreciated or amortized by an equal annual amount  over  the
+    lifetime of the associated Device as established  by  OCTASIC.   OCTASIC
+    shall not be liable for any claim based on PURCHASER’s use of the Object
+    Code as shipped after OCTASIC has informed PURCHASER of modifications or
+    changes in the Object Code required to avoid such claims and offered  to
+    provide those modifications or changes if such  claim  would  have  been
+    avoided by implementation of OCTASIC’s modifications  or  changes.   THE
+    FOREGOING STATES THE  ENTIRE  OBLIGATION  OF  OCTASIC  WITH  RESPECT  TO
+    INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.  THE FOREGOING IS GIVEN TO
+    PURCHASER SOLELY FOR ITS BENEFIT AND IN LIEU OF, AND  OCTASIC  EXPRESSLY
+    DISCLAIMS ALL, WARRANTIES OF NON-INFRINGEMENT WITH RESPECT TO THE OBJECT
+    CODE..
+ .
+                                  ARTICLE VII
+                                  TERMINATION
+    7.1     Termination by Octasic.  In addition to the right of termination
+    provided pursuant to Section 6.5 hereof, Octasic shall have  the  right,
+    on notice to the Licensee, to terminate this Agreement if  the  Licensee
+    should fail to pay an amount when due with respect to use of any of  the
+    Object Code and such breach is not cured within twenty (20)  days  after
+    written notice of such is given to it by Octasic.
+    7.2     Termination by either Party.  Either Party shall have the right,
+    on notice to the other Party to terminate this Agreement if:
+ a) the other Party becomes insolvent or files, or consents to,  a  petition
+    in bankruptcy or is  adjudicated  bankrupt  or  insolvent  or  makes  an
+    assignment for the benefit of creditors or an  arrangement  pursuant  to
+    any law regarding bankruptcy or the rights of creditors or  discontinues
+    or dissolves its business or if a receiver is appointed with respect  to
+    its business or assets and is not discharged within thirty (30) days; or
+ b) the other Party fails to perform any of  the  material  obligations  set
+    forth in this Agreement provided,  however,  that  if  such  default  is
+    remediable, it continues for a period of twenty (20) days after  written
+    notice of such has been given by the non-defaulting Party.
+    7.3     Consequences of Termination.  Upon termination of this Agreement
+    with respect to any Object Code, without prejudice to any  other  rights
+    which the Parties may have, all rights, privileges and licenses  granted
+    to the Licensee  hereunder  with  respect  to  such  Object  Code  shall
+    forthwith terminate and the Licensee shall forthwith cease use  of  such
+    Object Code, uninstall and return to Octasic all copies of  such  Object
+    Code and destroy all products incorporating such  Object  Code,  or  any
+    part thereof, in the Licensee’s control or possession.
+ .
+                                 ARTICLE VIII
+                                    GENERAL
+ 1. Notices.  Any notice or communication required or permitted to  be  given
+    hereunder shall be made in writing and  shall  be  deemed  to  have  been
+    properly given if delivered in person, sent by prepaid registered mail or
+    transmitted by confirmed receipt facsimile, addressed to the Party at its
+    address or facsimile number shown on the first page  hereof  or  to  such
+    other address or facsimile number as a Party may  furnish  to  the  other
+    Party by notice in accordance  with  this  provision.   Notices  will  be
+    deemed effective on  the  date  of  delivery  or  transmission,  if  such
+    delivery or transmission is made during the normal business hours of  the
+    addressee on a business day and, if not, on the next business day, or  on
+    the fifth day after mailing.
+    8.2     Amendment.  Any amendment of this Agreement must be made in  the
+    form of a written amending agreement  to  this  Agreement  and  must  be
+    executed by both Parties.
+    8.3     Assignment.  The Licensee may  assign  all  of  its  rights  and
+    obligations hereunder to a purchaser of all or substantially all of  the
+    assets of the Licensee.  Otherwise, the Licensee shall not assign any of
+    its rights or obligations hereunder without the prior written consent of
+    Octasic.  Notwithstanding  any  assignment  of  this  Agreement  by  the
+    Licensee, the Licensee shall continue to be bound by the confidentiality
+    obligations pursuant to Section 4.1.  Octasic may  assign  or  otherwise
+    transfer any or all of its rights and obligations hereunder to any other
+    Party without notice to or consent from the  Licensee.   This  Agreement
+    shall accrue to the benefit of, and be binding upon, the Parties,  their
+    respective successors and permitted assigns.
+    8.4     Waiver.  No waiver by either Party  of  any  provision  of  this
+    Agreement, in any one or more instances,  shall  be  deemed  to  be,  or
+    construed as, a waiver of the  same  or  any  other  provision  of  this
+    Agreement on any future occasion.
+    8.5     Independent Parties.  The Licensee and Octasic  are  independent
+    entities, and no agency, partnership, joint venture,  employee-employer,
+    or franchiser-franchisee relationship is intended  or  created  by  this
+    Agreement.
+    8.6      Survival.   The  following   provisions   shall   survive   any
+    termination of this Agreement: Sections 3.1, 4.1, 4.2,  5.1,  5.2,  6.2,
+    6.3, 6.4, 7.3 and 8.6.
+    8.7     Counterparts.  This Agreement may be  executed  in  counterparts
+    and all  executed  counterparts  taken  together  shall  constitute  one
+    Agreement.
+    8.8     Facsimile Execution.  To evidence the fact that it has  executed
+    this Agreement, a Party may send a copy of its executed  counterpart  to
+    the other Party by facsimile transmission.
+ .
+    IN WITNESS WHEREOF the Parties hereto have caused this Agreement  to  be
+    duly executed.
+ .
+ |OCTASIC INC.                |    |LICENSEE:                    |
+ |By:                         |    |By:                          |
+ |(Authorized Officer         |    |(Authorized Officer          |
+ |Signature)                  |    |Signature)                   |
+ |                            |    |                             |
+ |(Printed Name)              |    |(Printed Name)               |
+ |                            |    |                             |
+ |(Title)                     |    |(Title)                      |
+ |                            |    |                             |
+ |(Date)                      |    |(Date)                       |
+ .
+ .

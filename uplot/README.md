@@ -1,0 +1,5 @@
+# uPlot
+
+In TheVault 1.0.0-9902120.
+
+- **uPlot** 1.6.32, licence MIT (In TheVault's GUI)
