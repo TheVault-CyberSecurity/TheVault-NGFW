@@ -1,7 +1,7 @@
 # libxcomposite1
 
-In TheVault 1.0.2-db670de.
+In TheVault 1.0.3-cf3538c.
 
 - **libxcomposite1** 1:0.4.6-1, licence MIT (Debian)
-  - Debian source package `libxcomposite` 1:0.4.6-1: [libxcomposite_1.0.4.6-1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.2-db670de/libxcomposite_1.0.4.6-1.tar)
+  - Debian source package `libxcomposite` 1:0.4.6-1: [libxcomposite_1.0.4.6-1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.3-cf3538c/libxcomposite_1.0.4.6-1.tar)
   - also at https://snapshot.debian.org/package/libxcomposite/1%3A0.4.6-1/

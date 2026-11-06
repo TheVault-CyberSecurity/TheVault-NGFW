@@ -1,7 +1,7 @@
 # wireless-regdb
 
-In TheVault 1.0.2-db670de.
+In TheVault 1.0.3-cf3538c.
 
 - **wireless-regdb** 2026.05.30-1~deb13u1, licence ISC (Debian)
-  - Debian source package `wireless-regdb` 2026.05.30-1~deb13u1: [wireless-regdb_2026.05.30-1.deb13u1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.2-db670de/wireless-regdb_2026.05.30-1.deb13u1.tar)
+  - Debian source package `wireless-regdb` 2026.05.30-1~deb13u1: [wireless-regdb_2026.05.30-1.deb13u1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.3-cf3538c/wireless-regdb_2026.05.30-1.deb13u1.tar)
   - also at https://snapshot.debian.org/package/wireless-regdb/2026.05.30-1~deb13u1/

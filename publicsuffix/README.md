@@ -1,7 +1,7 @@
 # publicsuffix
 
-In TheVault 1.0.2-db670de.
+In TheVault 1.0.3-cf3538c.
 
 - **publicsuffix** 20250328.1952-0.1, licence MPL-2.0 (Debian)
-  - Debian source package `publicsuffix` 20250328.1952-0.1: [publicsuffix_20250328.1952-0.1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.2-db670de/publicsuffix_20250328.1952-0.1.tar)
+  - Debian source package `publicsuffix` 20250328.1952-0.1: [publicsuffix_20250328.1952-0.1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.3-cf3538c/publicsuffix_20250328.1952-0.1.tar)
   - also at https://snapshot.debian.org/package/publicsuffix/20250328.1952-0.1/

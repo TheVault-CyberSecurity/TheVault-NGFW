@@ -1,7 +1,7 @@
 # libharfbuzz0b
 
-In TheVault 1.0.2-db670de.
+In TheVault 1.0.3-cf3538c.
 
 - **libharfbuzz0b** 10.2.0-1+deb13u1, licence MIT (Debian)
-  - Debian source package `harfbuzz` 10.2.0-1+deb13u1: [harfbuzz_10.2.0-1.deb13u1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.2-db670de/harfbuzz_10.2.0-1.deb13u1.tar)
+  - Debian source package `harfbuzz` 10.2.0-1+deb13u1: [harfbuzz_10.2.0-1.deb13u1.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.3-cf3538c/harfbuzz_10.2.0-1.deb13u1.tar)
   - also at https://snapshot.debian.org/package/harfbuzz/10.2.0-1%2Bdeb13u1/

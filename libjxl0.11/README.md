@@ -1,7 +1,7 @@
 # libjxl0.11
 
-In TheVault 1.0.2-db670de.
+In TheVault 1.0.3-cf3538c.
 
 - **libjxl0.11** 0.11.2-0.1~deb13u3, licence BSD-3-clause-Google (Debian)
-  - Debian source package `jpeg-xl` 0.11.2-0.1~deb13u3: [jpeg-xl_0.11.2-0.1.deb13u3.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.2-db670de/jpeg-xl_0.11.2-0.1.deb13u3.tar)
+  - Debian source package `jpeg-xl` 0.11.2-0.1~deb13u3: [jpeg-xl_0.11.2-0.1.deb13u3.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.3-cf3538c/jpeg-xl_0.11.2-0.1.deb13u3.tar)
   - also at https://snapshot.debian.org/package/jpeg-xl/0.11.2-0.1~deb13u3/
