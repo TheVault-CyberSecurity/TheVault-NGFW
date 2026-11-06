@@ -1,7 +1,7 @@
 # hicolor-icon-theme
 
-In TheVault 1.0.0-9902120.
+In TheVault 1.0.2-db670de.
 
 - **hicolor-icon-theme** 0.18-2, licence GPL-2+ (Debian)
-  - Debian source package `hicolor-icon-theme` 0.18-2: [hicolor-icon-theme_0.18-2.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.0-9902120/hicolor-icon-theme_0.18-2.tar)
+  - Debian source package `hicolor-icon-theme` 0.18-2: [hicolor-icon-theme_0.18-2.tar](https://github.com/TheVault-CyberSecurity/TheVault-NGFW/releases/download/1.0.2-db670de/hicolor-icon-theme_0.18-2.tar)
   - also at https://snapshot.debian.org/package/hicolor-icon-theme/0.18-2/
